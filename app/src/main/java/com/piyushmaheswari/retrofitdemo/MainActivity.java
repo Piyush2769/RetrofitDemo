@@ -37,17 +37,17 @@ public class MainActivity extends AppCompatActivity {
             public void onResponse(Call<List<Hero>> call, Response<List<Hero>> response) {
                 List<Hero> heroes=response.body();
 
-                String[] heroNames=new String[heroes.size()];
+                String[] heroNameshero=new String[heroes.size()];
 
                 for(int i=0;i<heroes.size();i++)
                 {
-                    heroNames[i]=heroes.get(i).getName();
+                    heroNameshero[i]=heroes.get(i).getName();
                 }
 
                 listView.setAdapter(new ArrayAdapter<String>(
                         getApplicationContext(),
                         android.R.layout.simple_list_item_1,
-                        heroNames
+                        heroNameshero
                 ));
 
             }
