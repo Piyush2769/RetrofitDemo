@@ -3,7 +3,9 @@ package com.piyushmaheswari.retrofitdemo;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.widget.ArrayAdapter;
+import android.widget.LinearLayout;
 import android.widget.ListView;
+import android.widget.RelativeLayout;
 import android.widget.Toast;
 
 import java.util.List;
@@ -15,6 +17,9 @@ import retrofit2.Retrofit;
 import retrofit2.converter.gson.GsonConverterFactory;
 
 public class MainActivity extends AppCompatActivity {
+
+    private RelativeLayout relativeLayout;
+    private LinearLayout linearLayout;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -37,17 +42,17 @@ public class MainActivity extends AppCompatActivity {
             public void onResponse(Call<List<Hero>> call, Response<List<Hero>> response) {
                 List<Hero> heroes=response.body();
 
-                String[] heroNameshero=new String[heroes.size()];
+                String[] heroNames=new String[heroes.size()];
 
                 for(int i=0;i<heroes.size();i++)
                 {
-                    heroNameshero[i]=heroes.get(i).getName();
+                    heroNames[i]=heroes.get(i).getName();
                 }
 
                 listView.setAdapter(new ArrayAdapter<String>(
                         getApplicationContext(),
                         android.R.layout.simple_list_item_1,
-                        heroNameshero
+                        heroNames
                 ));
 
             }
