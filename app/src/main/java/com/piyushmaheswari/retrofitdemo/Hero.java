@@ -1,7 +1,14 @@
 package com.piyushmaheswari.retrofitdemo;
 
+import android.media.Image;
+import android.widget.TextView;
+
 public class Hero
 {
+
+    private TextView d;
+    private Image i;
+
     private String name;
     private String realname;
     private String team;
