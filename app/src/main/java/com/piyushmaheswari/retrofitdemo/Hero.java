@@ -12,6 +12,10 @@ public class Hero
     private TextView d21;
     private Image i3;
 
+    private String dd;
+    private String id;
+
+
 
 
     private String name;
