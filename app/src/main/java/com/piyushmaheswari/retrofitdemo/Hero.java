@@ -15,6 +15,8 @@ public class Hero
     private String dd;
     private String id;
 
+    private TextView d5;
+    private Image i5;
 
 
 
