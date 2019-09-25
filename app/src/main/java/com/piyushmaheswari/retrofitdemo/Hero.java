@@ -9,6 +9,11 @@ public class Hero
     private TextView d;
     private Image i;
 
+    private TextView d21;
+    private Image i3;
+
+
+
     private String name;
     private String realname;
     private String team;
