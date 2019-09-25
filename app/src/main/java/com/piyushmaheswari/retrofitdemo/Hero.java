@@ -18,6 +18,9 @@ public class Hero
     private TextView d5;
     private Image i5;
 
+    private TextView d53;
+    private Image i55;
+
 
 
     private String name;
