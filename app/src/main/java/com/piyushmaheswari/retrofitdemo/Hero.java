@@ -13,6 +13,9 @@ public class Hero
     private Image i3;
 
 
+    private TextView dd2s1;
+    private Image i3ss;
+
     private TextView d2s1;
     private Image i3s;
 
