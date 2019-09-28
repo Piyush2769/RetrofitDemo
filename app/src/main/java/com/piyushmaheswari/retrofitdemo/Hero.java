@@ -1,6 +1,8 @@
 package com.piyushmaheswari.retrofitdemo;
 
 import android.media.Image;
+import android.provider.MediaStore;
+import android.widget.ImageView;
 import android.widget.TextView;
 
 public class Hero
@@ -12,6 +14,8 @@ public class Hero
     private TextView d21;
     private Image i3;
 
+    ImageView kk;
+    MediaStore.Video.Media f;
 
     private TextView dd2s1;
     private Image i3ss;
