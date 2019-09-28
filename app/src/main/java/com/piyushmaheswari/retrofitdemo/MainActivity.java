@@ -26,6 +26,8 @@ public class MainActivity extends AppCompatActivity {
 
     private TextView dds;
     private Image iss;
+    private TextView ddsh;
+    private Image ishs;
 
     private TextView ds;
     private Image is;
