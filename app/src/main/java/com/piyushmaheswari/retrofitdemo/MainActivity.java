@@ -24,6 +24,8 @@ public class MainActivity extends AppCompatActivity {
     private LinearLayout linearLayout;
 
 
+    private TextView dds;
+    private Image iss;
 
     private TextView ds;
     private Image is;
