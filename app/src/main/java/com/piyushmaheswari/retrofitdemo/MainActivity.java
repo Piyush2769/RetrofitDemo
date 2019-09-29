@@ -23,7 +23,7 @@ public class MainActivity extends AppCompatActivity {
     private RelativeLayout relativeLayout;
     private LinearLayout linearLayout;
 
-
+    private TextView ddss;
     private TextView dds;
     private Image iss;
     private TextView ddsh;
